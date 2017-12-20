@@ -1,0 +1,19 @@
+{
+  "name": "simongame",
+  "version": "1.0.0",
+  "description": "+ This is a \"revamp\" of my JavaScript Calculator Project made for [FreeCodeCamp's](https://www.freecodecamp.org/) FrontEnd Certification using HTML, CSS, jQuery and JavaScript. You can use it like you would use a normal calculator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joao-Henrique/FCC-SimonGame.git"
+  },
+  "author": "João Henrique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joao-Henrique/FCC-SimonGame/issues"
+  },
+  "homepage": "https://github.com/Joao-Henrique/FCC-SimonGame#readme"
+}
