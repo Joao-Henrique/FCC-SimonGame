@@ -1,40 +1,48 @@
 .game-controls {
-  width: 273px;
-  margin: auto;
+  width: 244px;
+}
+
+h4 {
+  font-size: 30px;
+  color: white;
+  height: 50px;
+}
+
+span {
+  vertical-align: middle;
 }
 
 .btn {
   background-color: black;
   border-color: black;
-  border-style: dotted;
-  border-color: white;
-  border-width: 1.5px;
   font-size: 19px;
+  color: white;
+  font-size: 17px;
 }
 
 .btn:hover {
-  background-color: black;
-  border-style: dotted;
-  border-color: white;
-  border-width: 1.5px;
-  border-radius: 20px;
+  background-color: #03A9F4;
+  color: white;
+  border-color: black;
 }
 
 #checkbox-container {
   text-align: center;
   padding: 5px;
-  color: black;
+  color: #03A9F4;
 }
 
 .game-container {
   background-color: black;
-  width: 324px;
+  width: 244px;
   margin: auto;
-  padding: 25px;
   padding-bottom: 5px;
+  padding-top: 10px;
+  border-radius: 1em;
 }
 
 .color-btn {
+  display: inline-block;
   width: 110px;
   height: 110px;
   border-style: solid;

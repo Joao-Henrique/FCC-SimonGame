@@ -28,14 +28,14 @@ $(document)
                     thisSound.play();
                     $('#' + btn).fadeTo(250, .8);
                 });
-            $('h2').css('background-color', 'black')
+            $('h4').css('background-color', 'black')
         }
 
         // ALERT IF IT'S CORRECT OR WRONG
         function flashIcon(correct) {
             var color = (correct === true)
-                ? $('#txt-count').html('<span>Correct!!</span></p>') && $('h2').css('background-color', 'yellowgreen')
-                : $('#txt-count').html("<span>Wrong!!</span></p>") && $('h2').css('background-color', 'red');
+                ? $('#txt-count').html('<span>Correct!!</span></p>') && $('h4').css('background-color', 'yellowgreen')
+                : $('#txt-count').html("<span>Wrong!!</span></p>") && $('h4').css('background-color', 'red');
         }
 
         // GAME LOGIC
@@ -109,7 +109,7 @@ $(document)
 
         // START A NEW SEQUENCE
         $('#btn-start').click(function () {
-            $('#txt-count').html("<span>Get Ready!!</span></p>") && $('h2').css('background-color', 'green')
+            $('#txt-count').html("<span>Get Ready!!</span></p>") && $('h4').css('background-color', 'green')
             currentSequence = [];
             inputSequence = [];
             addToSequence();
@@ -124,14 +124,14 @@ $(document)
         // TOGLE THE SEQUENCE DISPLAY SPEED
         $('#btn-speed').click(function () {
             if (speed == 500) {
-                $('#txt-count').html('<span>Slow Speed!!</span></p>') && $('h2').css('background-color', 'orange')
+                $('#txt-count').html('<span>Slow Speed!!</span></p>') && $('h4').css('background-color', 'orange')
                 speed = 750;
             } else if (speed == 750) {
                 speed = 1000;
-                $('#txt-count').html('<span>Slow as a Snail!!</span></p>') && $('h2').css('background-color', 'red')
+                $('#txt-count').html('<span>Slow as a Snail!!</span></p>') && $('h4').css('background-color', 'red')
             } else if (speed == 1000) {
                 speed = 500;
-                $('#txt-count').html('<span>Normal Speed!!</span></p>') && $('h2').css('background-color', 'green')
+                $('#txt-count').html('<span>Normal Speed!!</span></p>') && $('h4').css('background-color', 'green')
             }
         });
     });
